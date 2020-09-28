@@ -33,6 +33,9 @@
                                 <state key="normal" title="ASK">
                                     <color key="titleColor" name="AccentColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3sh-qp-6N0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ask me something..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRW-vt-sX7">
                                 <rect key="frame" x="77" y="214" width="260" height="34"/>
@@ -55,6 +58,9 @@
                             <constraint firstItem="z7Y-1t-8x8" firstAttribute="top" secondItem="nRW-vt-sX7" secondAttribute="bottom" constant="40" id="vHI-DO-6wN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ballImageView" destination="z7Y-1t-8x8" id="4lI-Hx-RnZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
